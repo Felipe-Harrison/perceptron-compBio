@@ -12,7 +12,7 @@ def generateWeights(nInputs:int) -> list:
         randomWeights.append(uniform(-1,1))
     return randomWeights
 
-# funcao ativação 3 parametros
+# funcao ativação 3 classes
 # def activeFunction(value):
 #     if(value < -0.3334):
 #         return IRIS_SETOSA

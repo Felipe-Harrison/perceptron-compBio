@@ -6,7 +6,7 @@ IRIS_VIRGINICA = 2
 
 def normalizeClass(className:str) -> int:
     """Normalize DataBase\n
-    Iris-setosa = 0\n
+    Iris-setosa = -1\n
     Iris-versicolor = 1\n
     Iris-virginica = 2\n
     """

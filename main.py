@@ -19,19 +19,19 @@ databaseTrain,databaseTest = database.separateDatabase(trainRate=trainRate)
 # Create Perceptron
 
 perceptron = Perceptron(nInputs=database.inputSize)
-print(perceptron.weights)
+print("Pesos Iniciais: ",perceptron.weights)
 
 # Train Perceptron
 
 print("Treinando Perceptron...")
 perceptron.train(databaseTrain,learnRate=learnRate,epoch=epochs)
 print("Perceptron Treinado")
-print(perceptron.weights)
+print("Pesos Finais: ",perceptron.weights)
 
 # Test Perceptron
 acertos = 0
 erros = 0
-newDatabaseTest = sample(databaseTest,k=len(databaseTest)) # Embaralhar base de teste
+newDatabaseTest = sample(databaseTest,k=len(databaseTest)) # Embaralhar base de teste Evitar dados todos em sequência
 
 for test in newDatabaseTest:
 
