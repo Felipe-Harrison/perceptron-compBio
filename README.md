@@ -30,4 +30,5 @@ cd perceptron-compBio
 
 # Personalizar os Parâmetros do *Perceptron*
 No processo de criação do *Perceptron*, ficou definido três parâmetros customizáveis, que podem ser alterados no arquivo main.py:
-![image](https://github.com/Felipe-Harrison/perceptron-compBio/assets/76136248/0dcd6035-36a7-4036-9731-3bf1f2496d74)
+![image](https://github.com/Felipe-Harrison/perceptron-compBio/assets/76136248/f24883f1-f4bb-495a-804b-8fbcd7239c55)
+
